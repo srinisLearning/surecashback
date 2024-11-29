@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "@fortawesome/fontawesome-svg-core/styles.css"
-import {config} from "@fortawesome/fontawesome-svg-core"
+ 
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons/faYoutube";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons/faTwitter";
