@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
         <div className="flex">
           <ul className="flex flex-col gap-1">
-            <li className="text-md uppercase">About Us</li>
+            <li className="text-md uppercase  text-black-500">About Us</li>
             <li className="text-md uppercase">Help & Support</li>
             <li className="text-md uppercase">Terms & Conditions</li>
             <li className="text-md uppercase">FAQ</li>
