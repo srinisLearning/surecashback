@@ -1,22 +1,19 @@
 import React from "react";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "@fortawesome/fontawesome-svg-core/styles.css"
- 
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
 import {
   faAt,
   faMobileScreenButton,
- 
   faGlobe,
-  
 } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   return (
     <>
       <div className="flex flex-row  justify-around items-center my-3">
-      <div>
+        <div>
           <Image
             src="/images/logo.png"
             alt="Good Lifes"
@@ -24,7 +21,7 @@ const Header = () => {
             height={100}
           />
         </div>
-        <div className = "m-0">
+        <div className="m-0">
           <Image
             src="/images/GoodLifes_utilitybillspay.png"
             alt="Good Lifes"
@@ -32,34 +29,31 @@ const Header = () => {
             height={60}
           />
         </div>
-       
+
         <div className="flex flex-col gap-1">
-         
-            <div className="m-0">
+          <div className="m-0">
             <FontAwesomeIcon
               icon={faMobileScreenButton}
-              className="text-green-aaa" 
-              size='xs'               
-            /> &nbsp;
-            <span className="text-zinc-900"> 
-             98400 97531
-             </span>
-            </div>
-            <div className="m-0">
-            <FontAwesomeIcon icon={faAt} className="text-green-aaa" size = 'xs'  />  
+              className="text-green-aaa"
+              size="xs"
+            />{" "}
             &nbsp;
-            <span className="text-zinc-900"> 
-            care@surecashback.com
-            </span>
-            </div>
-            <div className="m-0">
-            <FontAwesomeIcon icon={faGlobe} className="text-green-aaa" size='xs' />  
+            <span className="text-zinc-900">98400 97531</span>
+          </div>
+          <div className="m-0">
+            <FontAwesomeIcon icon={faAt} className="text-green-aaa" size="xs" />
             &nbsp;
-            <span className="text-zinc-900"> 
-            http://www.surecashback.com
-            </span>
-            </div>
-           
+            <span className="text-zinc-900">care@surecashback.com</span>
+          </div>
+          <div className="m-0">
+            <FontAwesomeIcon
+              icon={faGlobe}
+              className="text-green-aaa"
+              size="xs"
+            />
+            &nbsp;
+            <span className="text-zinc-900">http://www.surecashback.com</span>
+          </div>
         </div>
       </div>
     </>

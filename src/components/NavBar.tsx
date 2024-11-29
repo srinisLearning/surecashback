@@ -15,17 +15,17 @@ const NavBar = async () => {
                 <li className="text-sm uppercase font-bold">Home</li>
               </Link>
             </div>
-           
+
             <div>
               {" "}
               <Link href="/paybill">
-              <li className="text-sm uppercase font-bold">Bills Pay</li>
+                <li className="text-sm uppercase font-bold">Bills Pay</li>
               </Link>
             </div>
-            
+
             <div>
               <Link href="/">
-              <li className="text-sm uppercase font-bold">Contact</li>
+                <li className="text-sm uppercase font-bold">Contact</li>
               </Link>
             </div>
           </div>
@@ -34,16 +34,16 @@ const NavBar = async () => {
               {!userId ? (
                 <>
                   <Link href="/sign-in">
-                  <li className="text-sm uppercase font-bold">Login</li>
+                    <li className="text-sm uppercase font-bold">Login</li>
                   </Link>
                   <Link href="/sign-up">
-                  <li className="text-sm uppercase font-bold">Register</li>
+                    <li className="text-sm uppercase font-bold">Register</li>
                   </Link>
                 </>
               ) : (
                 <>
                   <Link href="/profile">
-                  <li className="text-sm uppercase font-boldr">Profile</li>
+                    <li className="text-sm uppercase font-boldr">Profile</li>
                   </Link>
                   <li className="flex items-center text-slate-900">
                     <UserButton />
