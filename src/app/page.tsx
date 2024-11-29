@@ -1,4 +1,5 @@
 import HomeComponent1 from "@/components/HomeComponent1";
+import PayBillHome from "@/components/PayBillHome";
  
 import Image from "next/image";
 import Link from "next/link";
@@ -23,6 +24,7 @@ export default function Home() {
     <h3 className="text-xl uppercase text-center font-semibold">Our Services</h3>
     
     <Link href='/paybill'>
+    <PayBillHome />
     <button className="flex justify-center p-3 rounded-3xl mx-auto text-center bg-white text-green-600 uppercase">Pay Your Bills Now</button>
     </Link>
   </div>
