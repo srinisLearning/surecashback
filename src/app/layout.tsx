@@ -53,7 +53,7 @@ export default function RootLayout({
                   <Header />
                 </div>
 
-                <div className="flex w-screen bg-green-600">
+                <div className="flex w-screen">
                   <NavBar />
                 </div>
                  

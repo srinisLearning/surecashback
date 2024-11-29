@@ -12,7 +12,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
 const Footer = () => {
   return (
     <>
-      <div className="flex min-h-16 p-6 bg-green-900 text-white justify-around items-center gap-4 rounded-t-3xl m-2">
+      <div className="flex min-h-16 p-6 bg-amber-700 text-white justify-around items-center gap-4 rounded-t-3xl m-2">
         <div className="flex">
           <div className="flex gap-6 justify-center items-center">
             <Image
@@ -30,7 +30,7 @@ const Footer = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col justify-center align-middle gap-4">
+        <div className="flex flex-col justify-center align-middle gap-6">
           <div className="flex gap-6">
           <FontAwesomeIcon icon={faFacebookF} size="xl" />
           <FontAwesomeIcon icon={faYoutube} size="xl" />
@@ -39,7 +39,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faLinkedin} size="xl" />
           <FontAwesomeIcon icon={faFacebookF} size="lg" />
           </div>
-          <div>
+          <div className="flex justify-center">
           <Image
             src="/images/comodo_secure.png"
             alt="Good Lifes"
