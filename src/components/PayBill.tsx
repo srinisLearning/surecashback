@@ -56,30 +56,30 @@ function PayBill2() {
           className="flex flex-col shadow-xl  border-lime-300 border-1 p-5"
           defaultIndex={defaultTab}
         >
-          <TabList className="flex gap-2 justify-center mb-3 shadow-sm p-3 font-mono text-white uppercase  ">
+          <TabList className="flex gap-2 justify-center mb-3 shadow-sm p-3 font-mono text-zinc-600 uppercase  ">
             <Tab className="">
-              <p className="p-9 bg-gradient-to-t from-indigo-300 from-16% to-indigo-950  rounded-3xl hover:rounded-none text-white uppercase">
+              <p className="p-9 bg-gradient-to-t bg-gradient-to-r from-amber-200 to-yellow-400 rounded-3xl hover:rounded-none text-zinc-600 uppercase">
                 Utility Payments
               </p>
             </Tab>
             <Tab className="">
-              <p className="p-9 bg-gradient-to-b from-rose-300 to-rose-950 from-16%  rounded-3xl hover:rounded-none">
+              <p className="p-9 bg-gradient-to-t bg-gradient-to-t from-amber-200 to-yellow-400  text-zinc-600  rounded-3xl hover:rounded-none">
                 Recharge Payments
               </p>
             </Tab>
 
             <Tab className="">
-              <p className="p-9 bg-gradient-to-t from-teal-300 to-teal-950 from-16%  rounded-3xl hover:rounded-none">
+              <p className="p-9 bg-gradient-to-t bg-gradient-to-bl from-amber-200 to-yellow-400  rounded-3xl hover:rounded-none">
                 Loan Payments
               </p>
             </Tab>
             <Tab className="">
-              <p className="p-9 bg-gradient-to-b from-orange-300 to-orange-950 from-16% rounded-3xl hover:rounded-none">
+              <p className="p-9 bg-gradient-to-t bg-gradient-to-l from-amber-200 to-yellow-400  rounded-3xl hover:rounded-none">
                 Insurance Payments
               </p>
             </Tab>
             <Tab className="">
-              <p className="p-9  bg-gradient-to-t from-cyan-300 to-cyan-950 from-16%  rounded-3xl hover:rounded-none">
+              <p className="p-9  bg-gradient-to-t bg-gradient-to-br from-amber-200 to-yellow-400  rounded-3xl hover:rounded-none">
                 Other Payments
               </p>
             </Tab>

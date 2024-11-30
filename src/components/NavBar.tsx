@@ -6,13 +6,13 @@ import { auth } from "@clerk/nextjs/server";
 const NavBar = async () => {
   const { userId } = await auth();
   return (
-    <div className="flex justify-center items-center w-full mb-1 mx-auto bg-gradient-to-b from-amber-300 from-50% to-amber-600">
+    <div className="flex justify-center items-center w-full mb-1 mx-auto bg-gradient-to-b from-amber-200 to-yellow-400">
       <div className="rounded-xl text-white my-1">
         <ul className="flex justify-between py-4 px-6 gap-28 ">
           <div className="flex flex-row gap-10">
             <div>
               <Link href="/">
-                <li className="text-lg uppercase font-bold">Home</li>
+                <li className="text-lg uppercase font-bold text-zinc-600">Home</li>
               </Link>
             </div>
 
@@ -25,7 +25,7 @@ const NavBar = async () => {
 
             <div>
               <Link href="/">
-                <li className="text-lg uppercase font-bold">Contact</li>
+                <li className="text-lg uppercase font-bold text-zinc-600">Contact</li>
               </Link>
             </div>
           </div>
@@ -34,16 +34,16 @@ const NavBar = async () => {
               {!userId ? (
                 <>
                   <Link href="/sign-in">
-                    <li className="text-lg uppercase font-bold">Login</li>
+                    <li className="text-lg uppercase font-bold text-zinc-600">Login</li>
                   </Link>
                   <Link href="/sign-up">
-                    <li className="text-lg uppercase font-bold">Register</li>
+                    <li className="text-lg uppercase font-bold text-zinc-600">Register</li>
                   </Link>
                 </>
               ) : (
                 <>
                   <Link href="/profile">
-                    <li className="text-sm uppercase font-boldr">Profile</li>
+                    <li className="text-sm uppercase font-bold text-zinc-600">Profile</li>
                   </Link>
                   <li className="flex items-center text-slate-900">
                     <UserButton />

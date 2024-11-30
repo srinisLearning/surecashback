@@ -23,6 +23,7 @@ const HomeComponent1 = () => {
               height={75}
               className="rounded-lg shadow-lg"
             />
+           
           </div>
           <div className="justify-center text-center max-w-md">
             <div className="text-3xl text-center text-amber-400 font-bold p-3 max-w-lg shadow-md mb-6 ">
@@ -37,6 +38,7 @@ const HomeComponent1 = () => {
               
               Sure Cash Backs 
             </div>
+        
           </div>
         </div>
       </div>
