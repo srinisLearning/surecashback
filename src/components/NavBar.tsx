@@ -12,20 +12,20 @@ const NavBar = async () => {
           <div className="flex flex-row gap-10">
             <div>
               <Link href="/">
-                <li className="text-sm uppercase font-bold">Home</li>
+                <li className="text-lg uppercase font-bold">Home</li>
               </Link>
             </div>
 
             <div>
               {" "}
               <Link href="/paybill">
-                <li className="text-sm uppercase font-bold">Bills Pay</li>
+                <li className="text-lg uppercase font-bold text-zinc-600">Bill Pay</li>
               </Link>
             </div>
 
             <div>
               <Link href="/">
-                <li className="text-sm uppercase font-bold">Contact</li>
+                <li className="text-lg uppercase font-bold">Contact</li>
               </Link>
             </div>
           </div>
@@ -34,10 +34,10 @@ const NavBar = async () => {
               {!userId ? (
                 <>
                   <Link href="/sign-in">
-                    <li className="text-sm uppercase font-bold">Login</li>
+                    <li className="text-lg uppercase font-bold">Login</li>
                   </Link>
                   <Link href="/sign-up">
-                    <li className="text-sm uppercase font-bold">Register</li>
+                    <li className="text-lg uppercase font-bold">Register</li>
                   </Link>
                 </>
               ) : (

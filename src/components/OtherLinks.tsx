@@ -54,7 +54,7 @@ const LoanLinks = () => {
          
           <span className="icon">
           
-            <Image src={iconSrc} alt={iconAlt} width= {75}  height={75} className='text-green-bbb' />
+            <Image src={iconSrc} alt={iconAlt} width= {75}  height={75} className='text-green-600' />
             <span className="text-green-950 text-xs font-semibold uppercase flex justify-center gap-2">{text}</span>
           </span>
           

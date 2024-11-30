@@ -42,7 +42,7 @@ const BroadbandPayComponent = () => {
       />
     </div>
     <div className="flex justify-center text-sm bg-green-600 text-white  font-bold uppercase my-1">
-      Pay
+     Broadband Pay
     </div>
     {/* Form Here */}
     <form
