@@ -12,7 +12,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
 const Footer = () => {
   return (
     <>
-      <div className="flex min-h-16 p-6 bg-gradient-to-t from-amber-200 from-50% to-amber-800 text-white justify-around items-center gap-4 rounded-t-3xl m-2">
+      <div className="flex min-h-16 p-6 bg-gradient-to-b from-amber-300 from-50% to-amber-600 text-white justify-around items-center gap-4 rounded-t-3xl m-2">
         <div className="flex">
           <div className="flex gap-6 justify-center items-center">
             <Image
