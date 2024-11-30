@@ -6,7 +6,7 @@ import { auth } from "@clerk/nextjs/server";
 const NavBar = async () => {
   const { userId } = await auth();
   return (
-    <div className="flex justify-center items-center w-full mb-1 mx-auto bg-amber-700">
+    <div className="flex justify-center items-center w-full mb-1 mx-auto bg-amber-500">
       <div className="rounded-xl text-white my-1">
         <ul className="flex justify-between py-4 px-6 gap-28 ">
           <div className="flex flex-row gap-10">

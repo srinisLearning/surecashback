@@ -17,7 +17,7 @@ export default function Home() {
       priority
     />
   </div>
-  <div className="">
+  <div className="mt-9">
     <HomeComponent1 />
   </div>
   <div className="border rounded-full shadow-2xl   m-6 mt-12 p-6 w-screen mx-auto bg-gradient-to-b from-amber-200 from-33% to-amber-600 max-w-6xl ">
