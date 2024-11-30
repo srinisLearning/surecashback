@@ -8,6 +8,7 @@ const Profile = async () => {
   const { userId } = await auth();
   const isAuth = !!userId;
   const userData = await currentUser();
+   
 
   const email = userData?.emailAddresses[0]?.emailAddress;
  
