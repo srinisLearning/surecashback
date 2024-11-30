@@ -25,7 +25,7 @@ const HomeComponent1 = () => {
             />
           </div>
           <div className="justify-center text-center max-w-md">
-            <div className="text-3xl text-center font-bold p-3 max-w-lg text-brown-aaa">
+            <div className="text-3xl text-center text-amber-500 font-bold p-3 max-w-lg text-brown-aaa">
               {" "}
               Pay your bill
             </div>
@@ -33,7 +33,7 @@ const HomeComponent1 = () => {
               Electricity, Water, LPG, Gas, Mobile, Landline, DTH, Broadband,
               Cable TV, Insurance, Loan, Hospital, Credit Card{" "}
             </div>
-            <div className="text-3xl text-center font-bold p-3 max-w-lg text-brown-aaa">
+            <div className="text-3xl text-amber-600 text-center font-bold p-3 max-w-lg text-brown-aaa">
               {" "}
               Sure Cash Backs{" "}
             </div>

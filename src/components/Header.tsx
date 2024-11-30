@@ -17,16 +17,16 @@ const Header = () => {
           <Image
             src="/images/logo.png"
             alt="Sure Cash Back"
-            width={150}
+            width={125}
             height={60}
           />
         </div>
         <div className="m-0">
           <Image
-            src="/images/GoodLifes_utilitybillspay.png"
+            src="/images/ut_bi_pay.png"
             alt="Sure Cash Back"
-            width={150}
-            height={60}
+            width={300}
+            height={120}
           />
         </div>
 
@@ -38,12 +38,12 @@ const Header = () => {
               size="xs"
             />{" "}
             &nbsp;
-            <span className="text-zinc-900 font-extrabold text-green-900">91 98400 97531</span>
+            <span className="text-green-600 font-extrabold text-green-900">91 98400 97531</span>
           </div>
           <div className="m-0">
             <FontAwesomeIcon icon={faAt} className="text-green-aaa font-bold" size="xs" />
             &nbsp;
-            <span className="text-zinc-900 font-extrabold text-green-900">care@surecashback.com</span>
+            <span className="text-green-600 font-extrabold text-green-900">care@surecashback.com</span>
           </div>
           <div className="m-0">
             <FontAwesomeIcon
@@ -52,7 +52,7 @@ const Header = () => {
               size="xs"
             />
             &nbsp;
-            <span className="text-zinc-900 font-extrabold text-green-900">http://www.surecashback.com</span>
+            <span className="text-green-600 font-extrabold text-green-900">http://www.surecashback.com</span>
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ export default function Home() {
   <div className="">
     <HomeComponent1 />
   </div>
-  <div className="border rounded-full border-1 border-dashed border-green-600 m-6 mt-12 p-6 w-screen mx-auto bg-gradient-to-b from-lime-300 from-33% to-lime-700 ">
+  <div className="border rounded-full shadow-2xl   m-6 mt-12 p-6 w-screen mx-auto bg-gradient-to-b from-amber-200 from-33% to-amber-600 max-w-6xl ">
     <h3 className="text-xl uppercase text-center font-semibold">Our Services</h3>
     
     <Link href='/paybill'>
