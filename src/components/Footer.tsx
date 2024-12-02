@@ -36,26 +36,26 @@ const Footer = () => {
             <div className='flex justify-center '>
             <ul className="flex flex-col gap-1">
               <Link href="/about">
-            <li className="text-md uppercase">About Us</li>
+            <li className="text-md uppercase text-white">About Us</li>
             </Link>
-            <li className="text-md uppercase">Help & Support</li>
+            <li className="text-md uppercase text-white">Help & Support</li>
             <Link href="/terms">
-            <li className="text-md uppercase">Terms & Conditions</li>
+            <li className="text-md uppercase text-white">Terms & Conditions</li>
             </Link>
             </ul>
               </div>
               <div className='flex justify-center'>
               <ul className="flex flex-col gap-1"> 
-            <li className="text-md uppercase">FAQ</li>
-            <li className="text-md uppercase">Returns & Refunds</li>
+            <li className="text-md uppercase text-white">FAQ</li>
+            <li className="text-md uppercase text-white">Returns & Refunds</li>
             <Link href="/privacy-policy">
-            <li className="text-md uppercase">Privacy Policy</li>
+            <li className="text-md uppercase text-white">Privacy Policy</li>
             </Link>
           </ul>
               </div>
            
         </div>
-        <div className="flex flex-col justify-center align-middle gap-6 text-zinc-600">
+        <div className="flex flex-col justify-center align-middle gap-6 text-white">
           <div className="flex gap-6">
           <FontAwesomeIcon icon={faFacebookF} size="xl" />
           <FontAwesomeIcon icon={faYoutube} size="xl" />
