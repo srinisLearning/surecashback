@@ -8,26 +8,31 @@ import {
   faMobileScreenButton,
   faGlobe,
 } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 const Header = () => {
   return (
     <>
       <div className="flex flex-row  justify-around items-center my-3">
         <div>
+          <Link href="/">
           <Image
             src="/images/logo.png"
             alt="Sure Cash Back"
             width={125}
             height={60}
           />
+          </Link>
         </div>
         <div className="m-0">
+        <Link href="/">
           <Image
             src="/images/ut_bi_pay.png"
             alt="Sure Cash Back"
             width={300}
             height={120}
           />
+          </Link>
         </div>
 
         <div className="flex flex-col gap-1">

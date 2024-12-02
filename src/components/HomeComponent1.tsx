@@ -7,11 +7,11 @@ const HomeComponent1 = () => {
       <div className="flex justify-around items-center">
         <div className="flex max-w-xl">
           <Image
-            src="/images/woman-home-removebg.png"
+            src="/images/woman-home.png"
             alt="Home1"
             width={800}
             height={400}
-            className="rounded-lg shadow-lg"
+            className="rounded-lg "
           />
         </div>
         <div className="flex flex-col max-w-md justify-center m-2">
@@ -36,7 +36,7 @@ const HomeComponent1 = () => {
             </div>
             <div className="text-3xl text-amber-400 text-center font-bold p-3 max-w-lg shadow-md">
               
-              Sure Cash Backs 
+              Sure Cash Back
             </div>
         
           </div>

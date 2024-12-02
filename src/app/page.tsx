@@ -1,4 +1,5 @@
 import HomeComponent1 from "@/components/HomeComponent1";
+import HomeComponent2 from "@/components/HomeComponent2";
 import PayBillHome from "@/components/PayBillHome";
  
 import Image from "next/image";
@@ -29,14 +30,7 @@ export default function Home() {
     </Link>
   </div>
   <div className="flex m-2 p-2">
-  <Image
-      className=" w-screen"
-      src="/images/home_3.jpg"
-      alt="Good Lifes"      
-      width={1280}
-      height={610}
-      priority
-    />
+ <HomeComponent2 />
   </div>
   <div className="flex m-2 p-2">
     <Image

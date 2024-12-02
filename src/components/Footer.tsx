@@ -8,11 +8,12 @@ import { faYoutube } from "@fortawesome/free-brands-svg-icons/faYoutube";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons/faTwitter";
 import { faGooglePay } from "@fortawesome/free-brands-svg-icons/faGooglePay";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <>
-      <div className="flex min-h-16 p-6 bg-gradient-to-b from-amber-200 to-yellow-400 text-white justify-around items-center gap-4 rounded-t-3xl m-2">
+      <div className="flex min-h-16 p-6 bg-gradient-to-b from-red-500 to-orange-500 text-white justify-around items-center gap-4 rounded-t-3xl m-2">
         <div className="flex">
           <div className="flex gap-6 justify-center items-center">
             <Image
@@ -34,16 +35,22 @@ const Footer = () => {
            
             <div className='flex justify-center '>
             <ul className="flex flex-col gap-1">
+              <Link href="/about">
             <li className="text-md uppercase">About Us</li>
+            </Link>
             <li className="text-md uppercase">Help & Support</li>
+            <Link href="/terms">
             <li className="text-md uppercase">Terms & Conditions</li>
+            </Link>
             </ul>
               </div>
               <div className='flex justify-center'>
               <ul className="flex flex-col gap-1"> 
             <li className="text-md uppercase">FAQ</li>
             <li className="text-md uppercase">Returns & Refunds</li>
+            <Link href="/privacy-policy">
             <li className="text-md uppercase">Privacy Policy</li>
+            </Link>
           </ul>
               </div>
            
