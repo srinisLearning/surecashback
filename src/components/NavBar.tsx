@@ -19,12 +19,12 @@ const NavBar = async () => {
             <div>
               {" "}
               <Link href="/paybill">
-                <li className="text-lg uppercase font-bold text-white-600">Bill Pay</li>
+                <li className="text-lg uppercase font-bold text-white-600">Pay Bill</li>
               </Link>
             </div>
 
             <div>
-              <Link href="/">
+              <Link href="/contact">
                 <li className="text-lg uppercase font-bold text-white-600">Contact</li>
               </Link>
             </div>

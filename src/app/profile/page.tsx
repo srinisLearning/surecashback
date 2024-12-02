@@ -21,9 +21,7 @@ const Profile = async () => {
     <>
       <div className="flex items-center justify-center p-8">
         <div className="flex flex-col">
-          <h2 className="flex justify-center text-green-600 uppercase font-semibold py-3 w-screen text-xl">
-            Profile Page
-          </h2>
+        <h3 className='flex justify-center text-green-600 text-2xl font-bold my-2 uppercase '>Profile Page</h3>
          
           <div className="flex justify-center flex-col gap-2 mx-auto   pb-36">
           

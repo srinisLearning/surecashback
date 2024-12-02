@@ -6,7 +6,7 @@ import Image from 'next/image'
 const PayBillPage = () => {
   return (
      <>
-     <h3 className='flex justify-center text-green-600 text-2xl font-black my-2 uppercase '>Bill Pay</h3>
+     <h3 className='flex justify-center text-green-600 text-2xl font-bold my-2 uppercase '>Pay Bill</h3>
    
       <PayBillComponent/>
       

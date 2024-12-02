@@ -3,11 +3,9 @@ import React from "react";
 const page = () => {
   return (
     <>
-      <p className="font-bold text-3xl flex justify-center align-middle text-green-600 p-3 pb-0">
-        Terms & Conditions
-      </p>
+       <h3 className='flex justify-center text-green-600 text-2xl font-bold my-2 uppercase '>Terms & Conditions</h3>
       <div className='flex flex-col max-w-6xl justify-center align-middle mx-auto'>
-        <p className="font-bold">Introduction and Terms of Use</p>
+      
         <p>
           The terms and conditions contained hereinafter (“TERMS OF USE”) shall
           apply to the use of the website www.surecashback.com and all its

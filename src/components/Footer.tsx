@@ -32,48 +32,53 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex gap-9 text-zinc-600">
-           
-            <div className='flex justify-center '>
-            <ul className="flex flex-col gap-1">
+          <div className="flex justify-center ">
+            <ul className="flex flex-col gap-2">
               <Link href="/about">
-            <li className="text-md uppercase text-white">About Us</li>
-            </Link>
-            <li className="text-md uppercase text-white">Help & Support</li>
-            <Link href="/terms">
-            <li className="text-md uppercase text-white">Terms & Conditions</li>
-            </Link>
+                <li className="text-sm uppercase text-white">About Us</li>
+              </Link>
+              <Link href="/paybill">
+                <li className="text-sm uppercase text-white">Pay Bill</li>
+              </Link>
+              <Link href="/contact">
+                <li className="text-sm uppercase text-white">Contact</li>
+              </Link>
             </ul>
-              </div>
-              <div className='flex justify-center'>
-              <ul className="flex flex-col gap-1"> 
-            <li className="text-md uppercase text-white">FAQ</li>
-            <li className="text-md uppercase text-white">Returns & Refunds</li>
-            <Link href="/privacy-policy">
-            <li className="text-md uppercase text-white">Privacy Policy</li>
-            </Link>
-          </ul>
-              </div>
-           
+          </div>
+          <div className="flex justify-center">
+            <ul className="flex flex-col gap-2">
+              <Link href="/terms">
+                <li className="text-sm uppercase text-white">
+                  Terms & Conditions
+                </li>
+              </Link>
+              <Link href="/refunds">
+              <li className="text-sm uppercase text-white">
+                 Refunds
+              </li>
+              </Link>
+              <Link href="/privacy-policy">
+                <li className="text-sm uppercase text-white">Privacy Policy</li>
+              </Link>
+            </ul>
+          </div>
         </div>
         <div className="flex flex-col justify-center align-middle gap-6 text-white">
           <div className="flex gap-6">
-          <FontAwesomeIcon icon={faFacebookF} size="xl" />
-          <FontAwesomeIcon icon={faYoutube} size="xl" />
-          <FontAwesomeIcon icon={faTwitter} size="xl" />          
-          <FontAwesomeIcon icon={faLinkedin} size="xl" />
-           
+            <FontAwesomeIcon icon={faFacebookF} size="xl" />
+            <FontAwesomeIcon icon={faYoutube} size="xl" />
+            <FontAwesomeIcon icon={faTwitter} size="xl" />
+            <FontAwesomeIcon icon={faLinkedin} size="xl" />
           </div>
           <div className="flex justify-center">
-          <Image
-            src="/images/comodo_secure.png"
-            alt="Sure Cash Back"
-            width={125}
-            height={75}
-          />
+            <Image
+              src="/images/comodo_secure.png"
+              alt="Sure Cash Back"
+              width={125}
+              height={75}
+            />
           </div>
         </div>
-
-        
       </div>
     </>
   );

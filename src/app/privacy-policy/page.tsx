@@ -3,7 +3,7 @@ import React from 'react'
 const PrivacyPolicyPage = () => {
   return (
     <>
-    <p className='font-bold text-3xl flex justify-center align-middle text-green-600 p-3 pb-0'>Privacy Policy</p>
+     <h3 className='flex justify-center text-green-600 text-2xl font-bold my-2 uppercase '>Privacy Policy</h3>
   <div className ='max-w-4xl flex flex-col justify-center mx-auto p-6'>
     <div>
         <p>
