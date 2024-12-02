@@ -18,10 +18,11 @@ export default function Home() {
       priority
     />
   </div>
-  <div className="mt-9">
-    <HomeComponent1 />
+  
+  <div className="flex m-2 p-2">
+ <HomeComponent2 />
   </div>
-  <div className="border rounded-full shadow-2xl   m-6 mt-12 p-6 w-screen mx-auto bg-gradient-to-tr from-amber-200 to-yellow-400 max-w-6xl ">
+  <div className="border rounded-full shadow-2xl   m-6 mt-12   w-screen mx-auto bg-gradient-to-tr from-amber-200 to-yellow-400 max-w-6xl ">
     <h3 className="text-xl uppercase text-center font-semibold">Our Services</h3>
     
     <Link href='/paybill'>
@@ -29,9 +30,7 @@ export default function Home() {
     <button className="flex justify-center p-3 rounded-3xl mx-auto text-center bg-white text-green-600 uppercase">Pay Your Bills Now</button>
     </Link>
   </div>
-  <div className="flex m-2 p-2">
- <HomeComponent2 />
-  </div>
+  
   <div className="flex m-2 p-2">
     <Image
       className=" w-screen"

@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 const HomeComponent2 = () => {
   return (
-    <div className="flex flex-row  justify-center items-center my-3 max-w-6xl mx-auto">
+    <div className="flex flex-row  justify-between items-center my-3 max-w-7xl mx-auto gap-4">
        
 
-        <div>
+        
            
           <div className="max-w-4xl flex flex-col justify-center mx-auto p-6 text-xl text-justify">
             To make it easier and more convenient for customers, we offer a
@@ -22,7 +22,7 @@ const HomeComponent2 = () => {
               Our USP is cashback for every transaction
             </p>
           </div>
-        </div>
+         
         <div>
           <Image
             src="/images/home_about.png"
