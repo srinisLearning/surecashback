@@ -1,95 +1,124 @@
-import React from 'react'
+import React from "react";
 
 const PrivacyPolicyPage = () => {
   return (
     <>
-     <h3 className='flex justify-center text-green-600 text-2xl font-bold my-2 uppercase '>Privacy Policy</h3>
-  <div className ='max-w-4xl flex flex-col justify-center mx-auto p-6'>
-    <div>
-        <p>
-        This Privacy Policy describes how GOODLIFES E COMMERCE SOLUTIONS Pvt. Ltd. (hereinafter called
-        as SURE CASH BACK) uses personal data collected or received from SURECASHBACK
-         Customers 
-        through www.surecashback.com and all its associated portals owned by GOODLIFES E COMMERCE
-        SOLUTIONS Pvt. Ltd.
+      <h3 className="flex justify-center text-green-600 text-2xl font-bold my-2 uppercase ">
+        Privacy Policy
+      </h3>
+      <div className="max-w-4xl flex flex-col justify-center mx-auto p-6">
+        <p className="text-justify">
+        <h3 className="flex justify-center text-green-600 text-md font-bold my-2 uppercase italic">
+        Keeping your privacy secure is our mission.
+      </h3>
+          At SURECASHBACK, accessible from https://www.surecashback.com one of
+          our main priorities is the privacy of our visitors. This Privacy
+          Policy document contains types of information that is collected and
+          recorded by SURECASHBACK and how we use it.
         </p>
-        <p className='font-bold'>What is Personal Data?</p>
-        <p>
-        Privacy Policy describes, the personal data collected or received by SURE CASHBACK, the types of
-        personal data collected or received, how we use, share and protect these data, how long we retain
-        these data, your rights, and how you can contact us about our privacy practices.
-        When SURE CASHBACK Collect personal Data?
+        <p className="text-justify">
+          <h3 className="font-bold">Scope of the Policy This Privacy</h3>
+          Policy applies to:
+          <ul>
+            <li>
+              Information collected online through the SURECASHBACK website
+              www.surecashback.com and platform.
+            </li>
+            <li>
+              Information voluntarily provided to us by visitors and users. This
+              policy does not cover data collected offline or through
+              third-party platforms. By accessing or using our website, you
+              consent to this Privacy Policy and agree to its terms.
+            </li>
+          </ul>
         </p>
-        <p className='font-bold'>What is Personal Data?</p>
-        During initial Registration and on products or service ordering. SURECASHBACK collects your
-        personal data through online registrations, through the SURE CASHBACK website and APPs and all
-        its associated websites (the Websites) and APPs from every Customer of SURE CASHBACK.
-        Cookies. If you are logged in on to all the Websites of SURE CASHBACK and all of its associated
-        websites, we may also use cookies or similar technologies that collect certain Website usage
-        information when you access, view and use the Website. 
-        <p className='font-bold'>What are cookies?</p>
-        A cookie is a data file placed on a computer or mobile device when it is used to visit websites. To learn more about the cookies used by SURE
-        CASHBACK, please read the Website Privacy Notice.
-        You at any time may disable cookies in your browser&#39;s settings. Note, as an intimation to you that if
-        you disable the use of cookies, we like to mention that however, some of the features of the
-        Website may not function properly.
-        <p className='font-bold'> What types of Personal Data collected from Customers of SURE CASHBACK?</p>
-        We may collect the following personal data from you: such as e.g., Your Name, Age, Gender,
-        Nationality, Date of Birth, Place of Birth, Marital Status, Spouse &amp; Children details, Your PAN CARD
-        details, Aadhar card details, Bank Account details to credit the Cash Incentives into your account
-        Postal address, E-mail address, Mobile number and phone number, Product &amp; Service preferences,
-        purchasing habits, Purchasing history and Spending behaviour;
-        How SURE CASHBACK process the Data collected?
-        These above data are collected to help you, by managing your account, communicating with you
-        processing the orders of products or services that we offer, to bank your Cash incentives, to pay TDS
-        in your PAN account, bringing in you contact with other Customers of SURE CASHBACK, performing
-        accounting &amp; other related activities
-        <p className='font-bold'>Does SURE CASHBACK share Customers data?</p>
-        SURE CASHBACK in any point of time does not sell, rent, or trade or publish your personal and
-        sensitive data except as required by law and government authorities.
-        SURE CASHBACK may share your personal and sensitive data only with Government authorities or
-        other third parties, if required by law or reasonably necessary to protect the rights, property and
-        safety of others or ourselves.
-        
-        <p className='font-bold'>How We Protect Personal Data?</p>
-         
-        We maintain appropriate technical and organizational security safeguards designed to protect the
-        personal data of yours and also protect against accidental, unlawful or unauthorized destruction,
-        loss, alteration, access, disclosure or use.
-        <p className='font-bold'>How Long We keep the Personal Data? </p>
-        These collected personal data are kept as long as required to fulfil the purposes for which it is
-        collected or except required otherwise by law.
-        <p className='font-bold'>Updates to Privacy Policy</p> 
-        We SURE CASHBACK may update this Privacy Policy from time to time and any such updates or
-        changes to the terms of this Privacy Policy will be posted here on our website www.SURE
-        CASHBACK.in and all our associated sites.
-        <p className='font-bold'>    Customers Rights</p>
-        Acceptance to this Privacy Policy happens when you electronically acknowledge acceptance of this
-        Privacy Policy in effect at the time of use.
-        <p>
-        Your rights under applicable law may include access to the personal data we process about you, the
-        right to restrict the processing of your personal data, as well as the right to data portability, the right
-        to have such personal data corrected or erased and you have the right to withdraw your consent at
-        any time. This will not affect the lawfulness of the processing that has happened based on your
-        consent prior to the withdrawal. 
-        
-        To exercise these rights, you should make a written request using
-        our contact details given below. If you are not satisfied with the way we handle your request, you
-        may lodge a complaint with a supervisory authority.
+        <p className="text-justify">
+          <h3 className="font-bold">Information We Collect</h3>
+          We collect information that is necessary to provide our services,
+          improve your experience, and meet regulatory requirements.
+          <ul>
+            <li>
+              1. Personal Information : <br />
+              Basic Details: Name, date of birth, photo, address, phone/mobile
+              number, and email. <br /> KYC Information: PAN card, Aadhaar
+              (optional), and other regulatory documents. <br />
+              Financial Data: Bank account details, transaction history, and
+              communication regarding transactions.
+              <br />
+              Device Details: Device identifier, IP address, browser type,
+              location, and cookies or similar technologies.
+            </li>
+            <li>
+              2. Information Collected During Usage
+              <br />
+              We may collect data at various stages, including:
+              <br />
+              Registration: Information provided during account creation.
+              <br />
+              Transactions: Data related to the services you use on our
+              platform.
+              <br />
+              File Uploads: Documents like profile photos and KYC materials.
+            </li>
+          </ul>
         </p>
-        <p>
-        You also have the right to object, at any time, to the processing of your personal data which is based
-        on SURE CASHBACK legitimate interests. Where we process your personal data for Hybrid E
-        Commerce marketing purposes, you have the right to object at any time to such processing.
+        <p className="text-justify">
+          <h3 className="font-bold">How we use your Information</h3>
+          The information we collect is used for the following purposes:
+          <br />
+          To provide, operate, and maintain our website and services.
+          <br /> To improve, personalize, and enhance user experiences. <br />
+          To understand website usage and develop new features.
+          <br /> To communicate updates, respond to inquiries, and send
+          promotional materials.
+          <br /> To detect and prevent fraudulent activities.
+          <br /> We also use log files to analyze trends, administer the site,
+          and gather demographic information.
+          <br /> Log file data may include: IP addresses, browser types, ISPs,
+          date/time stamps, referring/exit pages, and click data. <br />
+          This information is not linked to personally identifiable details.
         </p>
-        <p className='font-bold'>How to Contact Us?</p>
-        If you have any doubts or comments or inquiries about this SURE CASHBACK Privacy Policy, we
-        would like to update information which we have about you, or you may contact our Compliance
-        Officer at support@goodlifes.in
-        </div>
-    </div>
-    </>
-  )
-}
 
-export default PrivacyPolicyPage
+        <p className="text-justify">
+          <h3 className="font-bold"> Third-Party Partners</h3>
+          We work with third-party advertising and API partners. These partners
+          may use cookies, JavaScript, or web beacons to personalize your
+          experience or measure the effectiveness of their campaigns. We do not
+          control these cookies. Please refer to the privacy policies of our
+          partners for detailed information:
+        </p>
+
+        <p className="text-justify">
+          <h3 className="font-bold">Your Rights and Choices</h3>
+          You have the following rights regarding your data: Access and Update:
+          Review and update your personal information. Withdraw Consent: Revoke
+          permissions granted for specific data use. Opt-Out: Disable cookies or
+          unsubscribe from marketing communications. To exercise these rights,
+          contact us at care@surecashback.com
+        </p>
+        <p className="text-justify">
+          <h3 className="font-bold">Data Security</h3>
+          We implement robust measures to secure your data, including
+          encryption, secure servers, and access control policies. However, no
+          method of transmission or storage is completely secure. Use our
+          services at your discretion.
+        </p>
+
+        <p className="text-justify">
+          <h3 className="font-bold"> Compliance</h3>
+          Compliance with relevant data protection laws (e.g., GDPR, CCPA, or
+          Indian IT Act etc)
+        </p>
+        <p className="text-justify">
+          <h3 className="font-bold">Changes to this Privacy Policy</h3>
+          We may update this Privacy Policy from time to time. Changes will be
+          posted on this page with an updated Effective Date. <br /> <br /> For questions,
+          concerns, or to exercise your rights, please contact us at
+          care@surecashback.com
+        </p>
+      </div>
+    </>
+  );
+};
+
+export default PrivacyPolicyPage;
